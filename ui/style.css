@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #222;
+    color: #eee;
+}
+
+#container {
+    margin: 20px auto;
+    max-width: 800px;
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background: #444;
+}
+
+table thead th {
+    background: #555;
+    padding: 10px;
+}
+
+table tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #555;
+}
+
+button {
+    background: #5a5;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #7a7;
+}
+
+#no-permission {
+    text-align: center;
+}
+
+#main-content {
+    display: none;
+}
