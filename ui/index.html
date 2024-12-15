@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>RP Queue Management</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div id="container">
+    <h1>RP Queue Management</h1>
+    <div id="no-permission" style="display:none;">
+        <p>You do not have permission to view this interface.</p>
+        <button onclick="closeUI()">Close</button>
+    </div>
+
+    <div id="main-content">
+        <h2>Queued RPs</h2>
+        <table id="queue-table">
+            <thead>
+                <tr><th>ID</th><th>Title</th><th>Region</th><th>Participants</th><th>Action</th></tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <h2>Active RPs</h2>
+        <table id="active-table">
+            <thead>
+                <tr><th>ID</th><th>Title</th><th>Region</th><th>Participants</th><th>Action</th></tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <button id="closeBtn" onclick="closeUI()">Close</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
